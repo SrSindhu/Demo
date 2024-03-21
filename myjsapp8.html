@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function login(){
+                var x=document.getElementById("uname").value;
+                var  y=document.getElementById("pword").value;
+                /*  document.getElementById("sum").value=parseInt(z)*/
+                if (x== "admin" & y=="admin"){
+                    alert("valid")
+                 }
+                 else{
+                    alert("validation failed")
+                 }
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            user name: <input type="text" id="uname"><br/>
+            password: <input type="password" id="pword"><br/>
+            <input type= "button" value="login" onclick="login()">
+        </form>
+    </body>
+</html>
